@@ -1,7 +1,7 @@
 FROM jupyter/scipy-notebook:1386e2046833
 
-ARG NB_USER=jovyan
-ARG NB_UID=1000
+ARG NB_USER='user_name'
+ARG NB_UID='user_id'
 ENV NB_UID ${NB_UID}
 ENV HOME /home/${NB_USER}
 
